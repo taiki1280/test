@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://qitailang.small.jp/webtech/include/jquery/sample.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>includeする側</title>
+<link rel="stylesheet" href="http://qitailang.small.jp/webtech/include/jquery/sample.html">
+<script src="./includeする側_files/jquery-1.7.2.min.js.ダウンロード"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$.ajaxSetup({cache:false}); //なくても良いがキャッシュを読み込まないように?
+		$('#header').load('head.html');
+	});
+</script>
+</head>
+<body class="vsc-initialized">
+<div id="header"><h1>読み込まれた外aaaaaaaaaaa(head.html）</h1></div>
+
+</body></html>

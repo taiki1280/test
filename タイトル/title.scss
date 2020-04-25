@@ -1,0 +1,21 @@
+* {
+  border: solid;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  background: blue;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  li {
+    display: flex;
+    font-size: 20px;
+  }
+}
