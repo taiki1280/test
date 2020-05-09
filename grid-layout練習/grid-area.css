@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #ff0;
+  display: grid;
+  grid-template: 1fr 1fr 7fr 1fr / 1fr 4fr;
+  grid-template-areas: "header header" "nav nav" "aside main" "footer footer";
+}
+
+body header {
+  grid-area: header;
+  background: lightgreen;
+}
+
+body nav {
+  grid-area: nav;
+  background: lightblue;
+}
+
+body main {
+  grid-area: main;
+  background: lightyellow;
+}
+
+body aside {
+  grid-area: aside;
+  background: lightpink;
+}
+
+body footer {
+  grid-area: footer;
+  background: lightcyan;
+}

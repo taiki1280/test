@@ -1,0 +1,23 @@
+body
+  margin: 0
+  height: 100vh
+  background: #ff0
+  display: grid
+  grid-template: 1fr 1fr 7fr 1fr / 1fr 4fr
+  grid-template-areas: "header header""nav nav""aside main""footer footer"
+    
+  header
+    grid-area: header
+    background: lightgreen
+  nav
+    grid-area: nav
+    background: lightblue
+  main
+    grid-area: main
+    background: lightyellow
+  aside
+    grid-area: aside
+    background: lightpink
+  footer
+    grid-area: footer
+    background: lightcyan
