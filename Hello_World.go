@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-  fmt.Println("Go言語はじめました！")
+	fmt.Println("Go言語はじめました！")
 }
